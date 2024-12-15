@@ -1,4 +1,4 @@
-def calculate_structure_sum(list_data):
+def calculate_structure_sum(*list_data):
 
 
 
