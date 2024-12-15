@@ -21,11 +21,11 @@ def string_info(string):
 def is_contains(string, list_to_search):
     count_calls()
     strung_up = string.upper()
-    spisok_up = []
+    list_to_search_up = []
     flag = False
     for j in list_to_search:
-        spisok_up.append(j.upper())
-    for i in spisok_up:
+        list_to_search.append(j.upper())
+    for i in list_to_search_up:
         if i == strung_up:
             flag = True
     return flag
